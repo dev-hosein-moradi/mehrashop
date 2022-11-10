@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Mehra Shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <!-- shop brand -->
+        <div class="nav__brand">
+          <img alt="mehra shop" src="assets/mehrashop-logo.svg" />
+        </div>
+        <!-- search box -->
+        <div class="nav__searchbox">
+          <div class="searchbox__container">
+            <span class="search__category">
+              <p>همه دسته بندی ها</p>
+              <img src="assets/Chevron Right 4.svg" alt="arrow" />
+            </span>
+            <span class="search__entry">
+              <input
+                type="text"
+                placeholder="کالای مورد نطر خود را جست و جو کنید"
+              />
+            </span>
+            <span class="search__btn">
+              <img src="assets/search 1.svg" alt="search icon" />
+            </span>
+          </div>
+        </div>
+      </nav>
+      <!-- burger toggler -->
+      <div class="burger__menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <aside class="header__aside close">
+        <div class="close__btn">
+          <span></span>
+          <span></span>
+        </div>
+        <!-- navbar cta -->
+        <div class="nav__cta">
+          <!-- account -->
+          <span>
+            <img src="assets/user 1.svg" alt="user" />
+          </span>
+          <!-- save -->
+          <span>
+            <img src="assets/solid heart.svg" alt="save" />
+            <p>۲</p>
+          </span>
+          <!-- shopping cart -->
+          <span>
+            <img src="assets/shopping-cart.svg" alt="cart" />
+            <p>۳</p>
+          </span>
+        </div>
+      </aside>
+    </header>
+    <!-- hero section -->
+    <main class="main__hero">
+      <!-- main page -->
+      <section class="main__container">
+        <!-- topbar in main page -->
+        <div class="main__topbar">
+          <!-- right bar links -->
+          <div class="topbar__links">
+            <span>ثبت نام فروشنده</span>
+            <span>محصولات استوک</span>
+            <span>تخفیف ها و پیشنهاد ها</span>
+            <span>بلاگ</span>
+            <span>پرسشهای رایج</span>
+            <span>درباره مهراشاپ</span>
+            <span>ارتباط با ما</span>
+          </div>
+          <!-- left bar location button -->
+          <div class="topbar__location">
+            <img src="assets/phone-call 1.svg" alt="location" />
+            <p>انتخاب استان و شهر</p>
+          </div>
+        </div>
+
+        <!-- hero section -->
+        <div class="hero">
+          <span class="hero__prev">
+            <img src="assets/Chevron Right 4.svg" alt="arrow" />
+          </span>
+          <span class="hero__next">
+            <img src="assets/Chevron Right 4.svg" alt="arrow" />
+          </span>
+          <section class="hero__content">
+            <h6>بشقاب مهربانی</h6>
+            <h1>خوراک تازه گیاهی</h1>
+            <h2>هر روز با مواد اولیه سالم</h2>
+            <p>
+              خوراکهای ایرانی و بین المللی گیاهی، خام گیاهی و وگن با مواد اولیه
+              سالم و ارگانیگ هر روز درب منزل شما. اکنون در شیراز
+            </p>
+            <button>اکنون خرید کنید</button>
+          </section>
+        </div>
+      </section>
+      <!-- sidebar category -->
+      <aside class="main__category">
+        <div class="category__toggler">
+          <div class="toggler__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>دسته بندی ها</p>
+          <img src="assets/down arrow solid.svg" alt="arrow" />
+        </div>
+
+        <!-- category items in hero page -->
+        <ul class="category__items open">
+          <li class="category__item">
+            <img src="assets/hot-sale (1).svg" alt="" />
+            <p>سوپر مارکت</p>
+          </li>
+          <li class="category__item">
+            <img src="assets/bell.svg" alt="" />
+            <p>خوارکهای گیاهی</p>
+          </li>
+          <li class="category__item">
+            <img src="assets/XMLID 979.svg" alt="" />
+            <p>هدیه و صنایع دستی</p>
+          </li>
+          <li class="category__item">
+            <img src="assets/harvest.svg" alt="" />
+            <p>مد و پوشاک</p>
+            <img src="assets/left arrow black.svg" alt="" />
+          </li>
+          <li class="category__item">
+            <img src="assets/vegetable.svg" alt="" />
+            <p>ورزش و سفر</p>
+            <img src="assets/left arrow black.svg" alt="" />
+          </li>
+          <li class="category__item">
+            <img src="assets/plastic-bottle.svg" alt="" />
+            <p>کالای الکترونیک</p>
+          </li>
+          <li class="category__item">
+            <img src="assets/bread.svg" alt="" />
+            <p>مادر و کودک</p>
+            <img src="assets/left arrow black.svg" alt="" />
+          </li>
+          <li class="category__item">
+            <img src="assets/boiled-egg.svg" alt="" />
+            <p>خانه و آشپزخانه</p>
+          </li>
+          <li class="category__item">
+            <img src="assets/milk.svg" alt="" />
+            <p>کتاب و لوازم تحریر</p>
+            <img src="assets/left arrow black.svg" alt="" />
+          </li>
+          <li class="category__item">
+            <img src="assets/meat.svg" alt="" />
+            <p>سلامت و زیبایی</p>
+          </li>
+          <li class="category__item">
+            <img src="assets/fish.svg" alt="" />
+            <p>همه دسته بندی ها</p>
+          </li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- suggest product section -->
+    <section class="suggest__product">
+      <div class="product__plan1">
+        <p>از سراسر دنیا خرید کنید</p>
+        <h1>کالاهای دیجیتال اصل درفروشگاه مهراشاپ</h1>
+        <button>خرید کنید</button>
+      </div>
+      <div class="product__plan2">
+        <p>انواع میوه های فصل</p>
+        <h1>تا ۵۰% تخفیف</h1>
+        <h3>ارگانیک و تازه</h3>
+        <button>خرید کنید</button>
+      </div>
+      <div class="product__plan3">
+        <h1>کاکتوس های ست شده و زیبا</h1>
+        <button>خرید کنید</button>
+      </div>
+    </section>
+
+    <!-- Property of shop section -->
+    <section class="shop__property">
+      <div class="property__box">
+        <img src="assets/Group 14 p1.svg" alt="property" />
+        <span>
+          <h1>خرید از سراسر دنیا</h1>
+          <p>
+            خرید محصولات پاک از فروشگاههای معتبر دنیا را در مهراشاپ تجربه کنید.
+          </p>
+        </span>
+      </div>
+      <div class="property__box">
+        <img src="assets/Group 15 p2.svg" alt="property" />
+        <span>
+          <h1>نخستین مرکز فروشگاههای گیاهی</h1>
+          <p>مهراشاپ؛ یک فروشگاه سبز، ارگانیک و بدون ستم است.</p>
+        </span>
+      </div>
+      <div class="property__box">
+        <img src="assets/Group 16 p3.svg" alt="property" />
+        <span>
+          <h1>تضمین بازگشت پول</h1>
+          <p>در صورت وجود مشکل در کالا، فوری بازگشت پول انجام خواهد شد.</p>
+        </span>
+      </div>
+      <div class="property__box">
+        <img src="assets/Group 17 p4.svg" alt="property" />
+        <span>
+          <h1>ضمانت اصالت کالا</h1>
+          <p>مهراشاپ اصالت کالا را برای شما عزیزان تضمین می کند.</p>
+        </span>
+      </div>
+    </section>
+
+    <!-- favorite categories section -->
+    <section class="favorite__categories">
+      <div class="favorite__topbar">
+        <h1>دوست داشتنی ترین دسته بندی ها</h1>
+        <p>مشاهده همه</p>
+      </div>
+
+      <!-- favorite  category items -->
+      <div class="fav__categ__items">
+        <div class="fav__item">
+          <div>
+            <h1>الکترونیک</h1>
+            <ul>
+              <li>کامپیوتر رومیزی</li>
+              <li>لپتاپ</li>
+              <li>تبلت</li>
+              <li>موبایل</li>
+              <li>هارد و مموری</li>
+              <li>لوازم جانبی</li>
+            </ul>
+            <p>مشاهده بیشتر</p>
+          </div>
+          <div>
+            <img src="assets/image 33 f1.svg" alt="favorite" />
+          </div>
+        </div>
+
+        <div class="fav__item">
+          <div>
+            <h1>خانه و آشپزخانه</h1>
+            <ul>
+              <li>صوتی و تصویری</li>
+              <li>دکوراسیون</li>
+              <li>نور و روشنایی</li>
+              <li>آشپزخانه</li>
+              <li>حیوانات خانگی</li>
+              <li>فرش و دستبافت</li>
+            </ul>
+            <p>مشاهده همه</p>
+          </div>
+          <div>
+            <img src="assets/image 32 f1.svg" alt="favorite" />
+          </div>
+        </div>
+
+        <div class="fav__item">
+          <div>
+            <h1>مد و پوشاک</h1>
+            <ul>
+              <li>لباس زنانه</li>
+              <li>اکسسوری زنانه</li>
+              <li>لباس مردانه</li>
+              <li>زیورآلات زنانه</li>
+              <li>پوشاک کودک</li>
+              <li>عینک آفتابی</li>
+            </ul>
+            <p>مشاهده بیشتر</p>
+          </div>
+          <div>
+            <img src="assets/image 33 f3.svg" alt="favorite" />
+          </div>
+        </div>
+
+        <div class="fav__item">
+          <div>
+            <h1>خوراکهای گیاهی</h1>
+            <ul>
+              <li>دسر و کیک</li>
+              <li>ساندویچ</li>
+              <li>پیتزا</li>
+              <li>سالاد ها</li>
+              <li>چلو و خورش ها</li>
+              <li>نوشیدنی ها</li>
+            </ul>
+            <p>مشاهده همه</p>
+          </div>
+          <div>
+            <img src="assets/image 34 f4.svg" alt="favorite" />
+          </div>
+        </div>
+      </div>
+
+      <!-- favorite category slider toggler -->
+      <div class="favorite__toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <!-- auction of the day section -->
+    <section class="auction__day">
+      <fieldset class="auction__items">
+        <legend>
+          <h1>حراجی روز</h1>
+          <span>مانده تا پایان: 11:43:11</span>
+        </legend>
+        <div class="auction__item">
+          <!-- like btn -->
+          <span class="item__save">
+            <img src="assets/heart fav.svg" alt="heart" />
+          </span>
+          <!-- picture of product -->
+          <img
+            class="item__image"
+            src="assets/image 4 fav1.svg"
+            alt="auction image"
+          />
+          <!-- title -->
+          <h1 class="item__title">کاکتوس با گلدان سنگی</h1>
+          <!-- rate star -->
+          <span class="item__rate">
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star1.svg" alt="star" />
+          </span>
+          <!-- describe of product -->
+          <p class="item__describe"></p>
+          <!-- price -->
+          <p class="item__price">۱٫۲۰۰٫۰۰۰ تومان</p>
+          <!-- progress bar -->
+          <div class="item__progress">
+            <span></span>
+          </div>
+          <!-- footer detail -->
+          <div class="item__detail">
+            <p>فروخته رفته: ۲۰</p>
+            <p>مانده: ۱۰</p>
+          </div>
+        </div>
+
+        <div class="auction__item">
+          <!-- like btn -->
+          <span class="item__save">
+            <img src="assets/heart fav.svg" alt="heart" />
+          </span>
+          <!-- picture of product -->
+          <img
+            class="item__image"
+            src="assets/image 4 auc2.svg"
+            alt="auction image"
+          />
+          <!-- title -->
+          <h1 class="item__title">رژلب گیاهی</h1>
+          <!-- rate star -->
+          <span class="item__rate">
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star1.svg" alt="star" />
+          </span>
+          <!-- describe of product -->
+          <p class="item__describe">
+            رژلب های گیاهی کاملا ارگانیک از برند پاک سیما
+          </p>
+          <!-- price -->
+          <p class="item__price">۳۵٫۰۰۰ تومان</p>
+          <!-- progress bar -->
+          <div class="item__progress">
+            <span></span>
+          </div>
+          <!-- footer detail -->
+          <div class="item__detail">
+            <p>فروخته رفته: ۲۰</p>
+            <p>مانده: ۱۰</p>
+          </div>
+        </div>
+
+        <div class="auction__item">
+          <!-- like btn -->
+          <span class="item__save">
+            <img src="assets/heart fav.svg" alt="heart" />
+          </span>
+          <!-- picture of product -->
+          <img
+            class="item__image"
+            src="assets/image 4 auc3.svg"
+            alt="auction image"
+          />
+          <!-- title -->
+          <h1 class="item__title">سبد گل طبیعی</h1>
+          <!-- rate star -->
+          <span class="item__rate">
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star1.svg" alt="star" />
+          </span>
+          <!-- describe of product -->
+          <p class="item__describe">
+            یک سبد گل طبیعی به سلیقه شما به ارزش ۲٫۰۰۰٫۰۰۰ با تخفیف ویژه فقط
+            امروز
+          </p>
+          <!-- price -->
+          <span class="item__price__box">
+            <p>۱٫۲۰۰٫۰۰۰ تومان</p>
+            <p>۲٫۰۰۰٫۰۰۰ ت</p>
+          </span>
+
+          <!-- progress bar -->
+          <div class="item__progress">
+            <span></span>
+          </div>
+          <!-- footer detail -->
+          <div class="item__detail">
+            <p>فروخته رفته: ۲۰</p>
+            <p>مانده: ۱۰</p>
+          </div>
+        </div>
+
+        <div class="auction__item">
+          <!-- like btn -->
+          <span class="item__save">
+            <img src="assets/heart fav.svg" alt="heart" />
+          </span>
+          <!-- picture of product -->
+          <img
+            class="item__image"
+            src="assets/image 4 auc4.svg"
+            alt="auction image"
+          />
+          <!-- title -->
+          <h1 class="item__title">چهارپایه چوبی</h1>
+          <!-- rate star -->
+          <span class="item__rate">
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star1.svg" alt="star" />
+          </span>
+          <!-- describe of product -->
+          <p class="item__describe">
+            چهارپایه چوبی با چوب گردو رنگ طبیعی خود چوب حفظ شده
+          </p>
+          <!-- add to cart -->
+          <button class="item__addcart">اضافه به سبد خرید</button>
+          <!-- progress bar -->
+          <div class="item__progress">
+            <span></span>
+          </div>
+          <!-- footer detail -->
+          <div class="item__detail">
+            <p>فروخته رفته: ۲۰</p>
+            <p>مانده: ۱۰</p>
+          </div>
+        </div>
+
+        <div class="auction__item">
+          <!-- like btn -->
+          <span class="item__save">
+            <img src="assets/heart fav.svg" alt="heart" />
+          </span>
+          <!-- picture of product -->
+          <img
+            class="item__image"
+            src="assets/image 4 auc5.svg"
+            alt="auction image"
+          />
+          <!-- title -->
+          <h1 class="item__title">آواکادو ارگانیک</h1>
+          <!-- rate star -->
+          <span class="item__rate">
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star1.svg" alt="star" />
+          </span>
+          <!-- describe of product -->
+          <p class="item__describe">
+            آواکادو های رسیده و ارگانیک میوه سرای شیراز
+          </p>
+          <!-- price -->
+          <p class="item__price">۵۵٫۰۰۰تومان</p>
+          <!-- progress bar -->
+          <div class="item__progress">
+            <span></span>
+          </div>
+          <!-- footer detail -->
+          <div class="item__detail">
+            <p>فروخته رفته: ۲۰</p>
+            <p>مانده: ۱۰</p>
+          </div>
+        </div>
+
+        <div class="auction__item">
+          <!-- like btn -->
+          <span class="item__save">
+            <img src="assets/heart fav.svg" alt="heart" />
+          </span>
+          <!-- picture of product -->
+          <img
+            class="item__image"
+            src="assets/image 4 auc6.svg"
+            alt="auction image"
+          />
+          <!-- title -->
+          <h1 class="item__title">آب نبات بدون شکر</h1>
+          <!-- rate star -->
+          <span class="item__rate">
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star.svg" alt="star" />
+            <img src="assets/Vector star1.svg" alt="star" />
+          </span>
+          <!-- describe of product -->
+          <p class="item__describe">آب نبات بدون شکر تهیه شده از عسل</p>
+          <!-- price -->
+          <p class="item__price">۱۵٫۰۰۰تومان</p>
+          <!-- progress bar -->
+          <div class="item__progress">
+            <span></span>
+          </div>
+          <!-- footer detail -->
+          <div class="item__detail">
+            <p>فروخته رفته: ۲۰</p>
+            <p>مانده: ۱۰</p>
+          </div>
+        </div>
+      </fieldset>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <!-- contact to mehrashop section -->
+      <div class="footer__cta">
+        <img src="assets/icon email.svg" alt="email" />
+        <h1>در خبرنامه مهراشاپ عضو شوید</h1>
+        <p>
+          ایمیل خود را ثبت کنید تا ازآخرین تخفیف ها و محصولات حراجی در مهراشاپ
+          با خبر شوید
+        </p>
+        <div class="email__box">
+          <button>عضویت</button>
+          <input type="text" placeholder="ایمیل خود را وارد کنید..." />
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <!-- cta links section -->
+        <div class="footer__links">
+          <!-- electronic sign section -->
+          <div class="footer__sign__valid">
+            <img src="assets/valid sign meli.svg" alt="" />
+            <img src="assets/valid sign.svg" alt="" />
+          </div>
+
+          <!-- footer links -->
+          <div class="links__item">
+            <div class="item__cell">
+              <h1>قوانین مهراشاپ</h1>
+              <a href="#">قوانین ارسال و تحویل</a>
+              <a href="#">بازگشت محصول</a>
+              <a href="#">خرابی محصولات</a>
+              <a href="#">قوانین محصولات خوراکی</a>
+              <a href="#">لغو خرید</a>
+              <a href="#">عضویت در مهراشاپ</a>
+            </div>
+            <div class="item__cell">
+              <h1>فروشندگان</h1>
+              <a href="#">قوانین ثبت نام</a>
+              <a href="#">ثبت فروشگاه</a>
+              <a href="#">قوانین محصولات</a>
+              <a href="#">حمل و نقل کالا</a>
+              <a href="#">روابط عمومی فروشندگان</a>
+              <a href="#">تماس با مدیریت</a>
+            </div>
+            <div class="item__cell">
+              <h1>درباره مهراشاپ</h1>
+              <a href="#">ارزشهای مهراشاپ</a>
+              <a href="#">محصولات ما</a>
+              <a href="#">هماکاری با مهراشاپ</a>
+              <a href="#">استخدام</a>
+              <a href="#">انتقادات و پیشنهادات</a>
+              <a href="#">پرسشهای رایج</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- info about contact to mehrashop -->
+        <div class="contact__info">
+          <div class="info__cell">
+            <h1>ارتباط ما</h1>
+
+            <!-- phone box -->
+            <span class="info__phone">
+              <img src="assets/phone solid.svg" alt="phone" />
+              <p>0930 499 4959</p>
+            </span>
+
+            <!-- hours of work box -->
+            <div class="info__hours">
+              <img src="assets/Time.svg" alt="hours" />
+              <span>
+                <p>شنبه تا چهارشنبه: 7 صبح تا 5 عصر</p>
+                <p>پنجشنبه: 8 صبح تا 2 بعد از ظهر</p>
+              </span>
+            </div>
+
+            <!-- email box -->
+            <span class="info__email">
+              <img src="assets/email 1.svg" alt="email" />
+              <p>info@mehrashop.com</p>
+            </span>
+          </div>
+
+          <!-- social media link -->
+          <div class="info__cell">
+            <img
+              class="info__logo"
+              src="assets/mehrashop-logo olid.svg"
+              alt="logo"
+            />
+            <h5>مهراشاپ یک فروشگاه اینترنتی ارگانیک و سلامت محور</h5>
+            <button>بیشتر بدانید...</button>
+            <span>
+              <img src="assets/youtube.svg" alt="social" />
+              <img src="assets/insta.svg" alt="social" />
+              <img src="assets/facebook.svg" alt="social" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="main.js" type="text/javascript"></script>
+</html>
